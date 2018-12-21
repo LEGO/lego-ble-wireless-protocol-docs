@@ -1,0 +1,41 @@
+/* override table width restrictions */
+@media screen and (min-width: 767px) {
+
+   .wy-table-responsive table td {
+      /* !important prevents the common CSS stylesheets from overriding
+         this as on RTD they are loaded after this stylesheet */
+      white-space: normal !important;
+   }
+
+   .wy-table-responsive {
+      overflow: visible !important;
+   }
+}
+
+
+.wy-nav-content {
+    max-width: 1200px !important;
+}
+
+th.head {
+    color: #FFFFFF;
+    background-color: #2980B9;
+}
+
+tr:nth-child(2n) {
+    background-color: #CCCCCC;
+}
+
+.wy-table-odd td,.wy-table-striped tr:nth-child(2n-1) td,.rst-content table.docutils:not(.field-list) tr:nth-child(2n-1) td{background-color:#EEEEEE}
+
+td {
+    vertical-align: top !important;
+}
+
+table {
+    width: 100% !important;
+}
+
+.strike {
+  text-decoration: line-through !important;
+}
